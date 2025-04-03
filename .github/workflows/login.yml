@@ -3,7 +3,7 @@ name: Serv00/CT8 Login Tasks
 on:
   workflow_dispatch:
   schedule:
-    - cron: "22 16 */21 * *"  # 每月1号开始，每10天运行一次，运行时间为13:14
+    - cron: "16 22 */21 * *"  # 每月1号开始，每21天运行一次，运行时间为22:16
   # push:
   #   paths-ignore:
   #     - "LICENSE"
